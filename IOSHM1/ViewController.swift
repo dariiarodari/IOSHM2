@@ -30,12 +30,45 @@ class ViewController: UIViewController {
         print("Блок 1. Задание 5.1")
         print(calculateDivisionleftExtended(firstNum: 4, secondNum: 9))
         print("==================")
+        print("Блок 2. Задача 1.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 2.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 3.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 4.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 5.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 6.")
+        printMyName()
+        print("==================")
+        print("Блок 2. Задача 7.")
+        printMyName()
+        print("==================")
+        print("Блок 3. Задание 1.")
+        printMyName()
+        print("==================")
+        print("Блок 3. Задание 2.")
+        printMyName()
+        print("==================")
+        print("Блок 3. Задание 3.")
+        printMyName()
+        print("==================")
+        print("Блок 3. Задание 4.")
+        printMyName()
+        print("==================")
     }
 
     //Блок 1. Задание 1. Создать метод при вызове которого в консоль будет выводиться фраза “Hello my name is Misha”. Метод ничего не принимает как параметры и ничего не возвращает
 
-    func printMyName () {
-        print("Hello, my name is Misha")
+    func printMyName () { // !!! Tung: пробел между названием метода и скобками не нужен
+        print("Hello, my name is Dasha") // !!! Tung: наконец-то кто-то сделал свое имя в методе))) а то все писали Миша миша...
     }
 
     //Блок 1. Задание 2. Создать метод в который будет передаваться ваш возраст как целое число. Метод не возвращает ничего. Метод выводит в консоль фразу “Hello world, my age is 33” (33 - просто пример)
@@ -43,6 +76,9 @@ class ViewController: UIViewController {
     func howOldAmI () {
         let age = 25
         print ("Hello world, my age is", age)
+        // !!! Tung: советую переменные в строку записывать так: \(age). так читабельнее и по стандарту так сказать.
+        // итого выйдет так:
+        print ("Hello world, my age is \(age)")
     }
 
     //Блок 1. Задание 3. Создать метод который называется returnFive(), который не будет иметь параметров, но должен просто напросто возвращать целое число 5 и все.
